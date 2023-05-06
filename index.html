@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Vizin.IO - Conectando Vizinhos</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="welcome">
-      <h1>Vizin.IO</h1>
-      <h2>Bem-vindo(a)</h2>
-      <button id="verificarAlertas">Verificar Alertas</button>
-      <button id="contatarEmergencia">Contatar Emergência</button>
-      <button id="chatBairro">Chat do Bairro</button>
-      <button id="contribuicoes">Contribuições</button>
-    </div>    
-    <script src="app.js"></script>
-  </body>
+<head>
+	<title>Vizin.IO - Inicio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        }
+
+        main {
+        text-align: center;  
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+        }
+
+        img {
+        max-width: 60%;
+        height: auto;
+        margin-bottom: -40px; 
+        }        
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Vizin.IO</h1>
+	</header>
+	<main>
+		<img src="Image/logo.png">
+        <h3>Transforme seu bairro no melhor lugar para morar</h3>
+        <br>
+        <button class = "btn" onclick="location.href='login.php'">Entrar</button>
+        <button class = "btn" onclick="location.href='novaConta.php'">Criar conta</button>             
+	</main>    
+</body>
 </html>

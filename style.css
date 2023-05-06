@@ -28,6 +28,7 @@ button {
   cursor: pointer;
   transition: all 0.2s ease;
 }
+
 .btn {
   background-color: #f24e1e;
   color: white;
