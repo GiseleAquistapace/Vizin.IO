@@ -57,7 +57,8 @@ include_once 'conexao.php';
                             
                         
             if($dados['senha_usuario'] == $row_usuario['senha_usuario']){
-                header("Location: inicial.html");
+                $_SESSION['nome'] = $row_usuario['nome'];
+                header("Location: inicial.php");
             }else{
                 $_SESSION['msg'] = "<p style='color: #ff0000'>Erro: Senha inválida!</p>";
             }
