@@ -11,8 +11,7 @@ include_once 'conexao.php'
     <link rel="stylesheet" type="text/css" href="style.css"> 
     <title>Vizin.IO - Conectando Vizinhos</title>      
   </head>
-  <body>  
-  
+  <body>   
     <div class="welcome">
       <img id="logo2" src="Image/logo.png">      
       <img id="pin" src="Image/pin.png">

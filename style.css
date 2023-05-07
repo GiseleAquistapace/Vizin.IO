@@ -1,54 +1,4 @@
 
-#pin{ 
-  width: 3.5%;
-  margin-top: 11.5rem; 
-  margin-right: 16rem;
-  position: absolute;
-}
-
-#emg{ 
-  width: 4%;
-  margin-top: 15.5rem; 
-  margin-right: 16rem;
-  position: absolute;
-}
-
-#cht{ 
-  width: 4%;
-  margin-top: 19.3rem; 
-  margin-right: 16rem;
-  position: absolute;
-}
-
-#doa{ 
-  width: 4%;
-  margin-top: 23rem; 
-  margin-right: 16rem;
-  position: absolute;
-}
-
-#logo{
-  max-width: 25%;
-}
-
-#logo2{
-  max-width: 10%;
-  margin-top: 1rem; 
-  margin-left: 20rem;
-  position: absolute;
-}
-
-#imgBack {
-  width: 2.5rem;
-  height: 2.5rem;    
-}
-
-#voltar{
-  margin-top: 4rem; 
-  margin-right: 18rem;
-  background-color: #F5F5F5;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -100,3 +50,76 @@ button {
 button:hover {
   opacity: 0.8;
 }
+
+#logo{
+  max-width: 25%;
+}
+
+#logo2{
+  max-width: 10%;
+  margin-top: 1rem; 
+  margin-left: 20rem;
+  position: absolute;
+}
+
+#imgBack {
+  width: 2.5rem;
+  height: 2.5rem;    
+}
+
+#voltar{
+  margin-top: 4rem; 
+  margin-right: 18rem;
+  background-color: #F5F5F5;
+}
+
+#pin{ 
+  width: 3.5%;
+  margin-top: 11.5rem; 
+  margin-right: 16rem;
+  position: absolute;
+}
+
+#emg{ 
+  width: 4%;
+  margin-top: 15.5rem; 
+  margin-right: 16rem;
+  position: absolute;
+}
+
+#emg2{ 
+  width: 4%;
+  margin-top: 12.2rem; 
+  margin-left: 18rem;
+  position: absolute;
+}
+
+#cht{ 
+  width: 4%;
+  margin-top: 19.3rem; 
+  margin-right: 16rem;
+  position: absolute;
+}
+
+#doa{ 
+  width: 4%;
+  margin-top: 23rem; 
+  margin-right: 16rem;
+  position: absolute;
+}
+
+.servicos {
+  width: 100%;
+  max-width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+#imgser {
+  width: 20rem;
+  height: 5rem; 
+}
+
+
+
