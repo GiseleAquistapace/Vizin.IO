@@ -1,4 +1,32 @@
 
+#pin{ 
+  width: 3.5%;
+  margin-top: 11.5rem; 
+  margin-right: 16rem;
+  position: absolute;
+}
+
+#emg{ 
+  width: 4%;
+  margin-top: 15.5rem; 
+  margin-right: 16rem;
+  position: absolute;
+}
+
+#cht{ 
+  width: 4%;
+  margin-top: 19.3rem; 
+  margin-right: 16rem;
+  position: absolute;
+}
+
+#doa{ 
+  width: 4%;
+  margin-top: 23rem; 
+  margin-right: 16rem;
+  position: absolute;
+}
+
 #logo{
   max-width: 25%;
 }
@@ -8,7 +36,6 @@
   margin-top: 1rem; 
   margin-left: 20rem;
   position: absolute;
-
 }
 
 #imgBack {
@@ -56,14 +83,14 @@ button {
 }
 
 .btn {
+  width: 10rem;  
   background-color: #f24e1e;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
-  
+  cursor: pointer;  
 }
 
 .btn:hover {
