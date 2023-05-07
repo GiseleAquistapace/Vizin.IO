@@ -18,13 +18,12 @@ include_once 'conexao.php';
      <h1>Bem vindo (a)!</h1>
      <h3>Crie uma conta no app</h3>
      <br>
-
   
     <?php
     $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);  
 
     $nome = $dados['nome'];
-    $email = $dados['email'];
+    $email = $dados['email'];      
     $usuario = $dados['usuario'];
     $senha_usuario = $dados['senha_usuario'];
 
@@ -38,9 +37,11 @@ include_once 'conexao.php';
 
         $result_login = $conn->prepare($query_login);
         $result_login->execute();
-        
+               
         if ($result_login->rowCount() != 0){
             $_SESSION['msg'] = "<p style='color: #ff0000'>Este usuário já está em uso!</p>";            
+        } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $_SESSION['msg'] = "<p style='color: #ff0000'>Formato de e-mail inválido</p>";
         } else { 
 
             $query_novo_usuario = "INSERT INTO usuarios (nome, email, usuario, senha_usuario) 
