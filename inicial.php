@@ -7,19 +7,13 @@ include_once 'conexao.php'
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Vizin.IO - Conectando Vizinhos</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        img {
-        max-width: 5%;
-       
-                    
-        }        
-	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <title>Vizin.IO - Conectando Vizinhos</title>      
   </head>
   <body>  
     <div class="welcome">
-      <img src="Image/logo.png">
+      <img id="logo2" src="Image/logo.png">
       <h1>Vizin.IO</h1>           
       <h2>Bem-vindo(a) <?php echo $_SESSION['nome']; ?> !</h2>
       <button id="verificarAlertas">Verificar Alertas</button>

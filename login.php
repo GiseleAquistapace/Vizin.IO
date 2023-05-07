@@ -8,34 +8,12 @@ include_once 'conexao.php';
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        body {
-        display: flex;
-        flex-direction: column;        
-        justify-content: center;
-        height: 100vh;
-        text-align: center;
-        margin-bottom: 100px;
-        }  
-
-        img{        
-        width: 15px;
-        height: 30px;
-        align: center;          
-        }  
-        
-        button{ 
-        margin-left: 700px;  
-        width: 10px;      
-        height: 10px;            
-        }      
-	</style>
+    <link rel="stylesheet" type="text/css" href="style.css">   
     <title>Login</title>
 </head>
 
 <body>
-     <button onclick="location.href='index.html'"><img src="Image/backArrow.jpg"></button>
+     <button id="voltar" onclick="location.href='index.html'"><img id="imgBack" src="Image/backArrow.png"></button>
      <h1>Vizin.IO</h1>
      <h2>Login</h2>
      <br>
