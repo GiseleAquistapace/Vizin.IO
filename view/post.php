@@ -17,11 +17,9 @@
   </div>
 
   <?php //@TODO Redirecionar para o login se usuário não estiver logado?>
-  <?php //@TODO Obter os pins e criar os markers?>
-  <?php //@TODO Ao clicar em um marker, trazer os posts naquele local?>
 
   <div id="content">
-    <img src='img/vizin.io.png' width='100px' />
+    <a href='inicial'><img src='img/vizin.io.png' width='100px' /></a>
     <p style='font-size:14px'>Clique nos marcadores em laranja para visualizar os posts já incluídos ou em qualquer
       lugar do mapa para incluir um novo post.</p>
     <div id="map"></div>

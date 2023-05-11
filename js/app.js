@@ -10,7 +10,7 @@ window.onload = function() {
     contribuicoesBtn.classList.add("btn");
   
     verificarAlertasBtn.onclick = function() {
-      window.location.href = "verificar_alertas.html";
+      window.location.href = "post";
     };
   
     contatarEmergenciaBtn.onclick = function() {
