@@ -8,12 +8,12 @@ include_once 'conexao.php';
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">   
+    <link rel="stylesheet" type="text/css" href="css/style.css">   
     <title>Login</title>
 </head>
 
 <body>
-     <button id="voltar" onclick="location.href='index.html'"><img id="imgBack" src="Image/backArrow.png"></button>
+     <button id="voltar" onclick="location.href='index.html'"><img id="imgBack" src="img/backArrow.png"></button>
      <h1>Vizin.IO</h1>
      <h2>Login</h2>
      <br>
@@ -35,8 +35,9 @@ include_once 'conexao.php';
                             
                         
             if($dados['senha_usuario'] == $row_usuario['senha_usuario']){
+                $_SESSION['id'] = $row_usuario['id'];
                 $_SESSION['nome'] = $row_usuario['nome'];
-                header("Location: inicial.php");
+                header("Location: inicial");
             }else{
                 $_SESSION['msg'] = "<p style='color: #ff0000'>Erro: Senha inválida!</p>";
             }

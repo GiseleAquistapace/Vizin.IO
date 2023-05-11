@@ -1,13 +1,13 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "root";
+//$pass = "root";
 $dbname = "meu_banco";
 
 try{
     
-    $conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user, $pass);
+    $conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user);
     
 }catch(PDOException $err){
-    
+
 }

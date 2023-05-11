@@ -9,12 +9,12 @@ include_once 'conexao.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="style.css">   
+    <link rel="stylesheet" type="text/css" href="css/style.css">   
     <title>Cadastro</title>
 </head>
 
 <body>
-     <button id="voltar" onclick="location.href='index.html'"><img id="imgBack" src="Image/backArrow.png"></button>
+     <button id="voltar" onclick="location.href='index.html'"><img id="imgBack" src="img/backArrow.png"></button>
      <h1>Bem vindo (a)!</h1>
      <h3>Crie uma conta no app</h3>
      <br>
