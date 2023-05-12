@@ -11,7 +11,7 @@ class PostModel
     public function getPostsByPosition($latitude, $longitude)
     {
         $query = "SELECT p.cd_post, p.latitude, p.longitude, p.nm_local, p.endereco,
-        p.assunto, p.descricao, p.dt_update, p.dt_criacao, u.id, u.nome
+        p.assunto, p.descricao, p.dt_update, DATE_FORMAT(p.dt_criacao, '%d/%m/%Y %H:%i') dt_criacao, u.id, u.nome
             FROM post p
             INNER JOIN usuarios u ON u.id = p.cd_usuario
             WHERE p.latitude = :latitude
