@@ -8,23 +8,27 @@ Observação: por ser um projeto de faculdade, as tecnologias utilizadas se limi
 
 ## Authors
 
-- [@jessicasrodrigues](https://github.com/jessicasrodrigues)
-- [@GiseleAquistapace](https://github.com/GiseleAquistapace)
-- [@SamuelCrepaldi](https://github.com/SamuelCrepaldi)
-//@TODO Adicionar resto da galera
+| [<img src="https://avatars.githubusercontent.com/u/7684192" style='border-radius: 50%' width=80><br><sub>Jéssica Rodrigues</sub>](https://github.com/jessicasrodrigues)  | [<img src="https://avatars.githubusercontent.com/u/125749367?v=4" style='border-radius: 50%' width=80><br><sub>Gisele Bittencourt</sub>](https://github.com/GiseleAquistapace)  |  [<img src="https://avatars.githubusercontent.com/u/14103735" style='border-radius: 50%' width=80><br><sub>Felipe Craveiro</sub>](https://github.com/flpcnc) |
+|---|---|---|
+|  [<img src="https://avatars.githubusercontent.com/u/120474188" style='border-radius: 50%' width=80><br><sub>Kauan Yamada</sub>](https://github.com/KauanYamada) | [<img src="https://avatars.githubusercontent.com/u/133287720" style='border-radius: 50%' width=80><br><sub>Gleyco da Silva</sub>](https://github.com/mathmsd)  | [<img src="https://avatars.githubusercontent.com/u/99621069" style='border-radius: 50%' width=80><br><sub>Samuel Gomes</sub>](https://github.com/SamuelCrepaldi)  |
+
 
 ## Installation
 
-Versões utilizadas no desenvolvimento:
-PHP 8.0.28
-Apache 2.4.56
-MariaDB 10.4.28
+#### Versões utilizadas no desenvolvimento:
+* PHP 8.0.28
+* Apache 2.4.56
+* MariaDB 10.4.28
 
-//@TODO Instruções para configurar o banco
+#### Execute os arquivos dentro da pasta `bd` na ordem:
+* `meu_banco.sql`
+* `post.sql`
+Atentar dados de conexão em `conexao.php`.
 
+#### Outras instruções:
 * Esse projeto usa mod_rewrite no htacess para o index.php - Certifique-se que o Apache está com AllowOverride All
-* Habilitar o PDO Mysql no php.ini
-* Configure no hosts do seu SO: 127.0.0.1 vizin.io
+* Habilitar o PDO Mysql no `php.ini`
+* Configure no hosts do seu SO: `127.0.0.1 vizin.io`
 * Se você está usando o xampp, configure no htdocs do seu Apache o DocumentRoot para a pasta do projeto vizin.io. Exemplo:
 ```
 DocumentRoot "C:/xampp/htdocs/Vizin.IO"
