@@ -2,40 +2,32 @@
 <html>
 <head>
 	<title>Vizin.IO - Contato de Emergência</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        
-        body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        }
-
-        main {
-        text-align: center;
-        margin-top: 50px;
-        }
-
-        img {
-        max-width: 100%;
-        height: auto;
-        margin-top: 20px;
-        }
-
-	</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css">    
 </head>
 <body>
-	<header>
-		<h1>Vizin.IO</h1>
-	</header>
-	<main>
-		<h2>Contato de Emergência</h2>
-		<p class="important-text">IMPORTANTE</p>
-		<img src="Pag_Emergencia.jpg" alt="Emergencia">
+    <header>
+        <img id = "emg2" src="img/emergencia.png">
+        <button id="voltar" onclick="location.href='inicial.php'"><img id="imgBack" src="img/backArrow.png"></button>
+		<h1>Vizin.IO</h1>        
+    </header>
+	
+    <main> 
+		<h2>Contatos de Emergência</h2>
+		<p style='color: #ff0000'>IMPORTANTE</p>		
+        <p>Local apenas para troca de mensagens.<br>
+            Para emergência entre em contato com os números indicados.</p>
+        <div class="servicos">
+            <button onclick="location.href='em_const.html'"><img id="imgser" src="img/tst.png"></button>
+            <button onclick="location.href='em_const.html'"><img id="imgser" src="img/tst.png"></button>
+            <button onclick="location.href='em_const.html'"><img id="imgser" src="img/tst.png"></button>
+        <!-- <img src="img/pref.png">
+        <img src="img/poli.png">
+        <img src="img/bombeiro.png">  -->
+        </div>       
 		<p>Ir para historico de conversas.</p>
-        <button onclick="location.href='index.html'">Voltar para a página inicial</button>
-	</main>
+    </main>     
+	
 </body>
 </html>
