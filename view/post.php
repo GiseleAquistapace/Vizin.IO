@@ -16,7 +16,7 @@
     <div class="spinner"></div>
   </div>
 
-  <?php //@TODO Redirecionar para o login se usuário não estiver logado?>
+  <?php //@TODO Redirecionar para o login se usuário não estiver logado  ?>
 
   <div id="content">
     <a href='inicial'><img src='img/vizin.io.png' width='100px' /></a>

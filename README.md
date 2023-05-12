@@ -9,9 +9,9 @@ Observação: por ser um projeto de faculdade, as tecnologias utilizadas se limi
 
 ## Authors
 
-| [<img src="https://avatars.githubusercontent.com/u/7684192" style='border-radius: 50%' width=80><br><sub>Jéssica Rodrigues</sub>](https://github.com/jessicasrodrigues)  | [<img src="https://avatars.githubusercontent.com/u/125749367?v=4" style='border-radius: 50%' width=80><br><sub>Gisele Bittencourt</sub>](https://github.com/GiseleAquistapace)  |  [<img src="https://avatars.githubusercontent.com/u/14103735" style='border-radius: 50%' width=80><br><sub>Felipe Craveiro</sub>](https://github.com/flpcnc) |
+| [<img src="https://avatars.githubusercontent.com/u/7684192" width=80><br><sub>Jéssica Rodrigues</sub>](https://github.com/jessicasrodrigues)  | [<img src="https://avatars.githubusercontent.com/u/125749367?v=4" width=80><br><sub>Gisele Bittencourt</sub>](https://github.com/GiseleAquistapace)  |  [<img src="https://avatars.githubusercontent.com/u/14103735" width=80><br><sub>Felipe Craveiro</sub>](https://github.com/flpcnc) |
 |---|---|---|
-|  [<img src="https://avatars.githubusercontent.com/u/120474188" style='border-radius: 50%' width=80><br><sub>Kauan Yamada</sub>](https://github.com/KauanYamada) | [<img src="https://avatars.githubusercontent.com/u/133287720" style='border-radius: 50%' width=80><br><sub>Gleyco da Silva</sub>](https://github.com/mathmsd)  | [<img src="https://avatars.githubusercontent.com/u/99621069" style='border-radius: 50%' width=80><br><sub>Samuel Gomes</sub>](https://github.com/SamuelCrepaldi)  |
+|  [<img src="https://avatars.githubusercontent.com/u/120474188" width=80><br><sub>Kauan Yamada</sub>](https://github.com/KauanYamada) | [<img src="https://avatars.githubusercontent.com/u/133287720" width=80><br><sub>Gleyco da Silva</sub>](https://github.com/mathmsd)  | [<img src="https://avatars.githubusercontent.com/u/99621069" width=80><br><sub>Samuel Gomes</sub>](https://github.com/SamuelCrepaldi)  |
 
 
 ## Installation

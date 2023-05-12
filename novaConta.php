@@ -44,8 +44,11 @@ include_once 'conexao.php';
             $_SESSION['msg'] = "<p style='color: #ff0000'>Formato de e-mail inválido</p>";
         } else { 
 
-            $query_novo_usuario = "INSERT INTO usuarios (nome, email, usuario, senha_usuario) 
-                               VALUES ('$nome', '$email', '$usuario', '$senha_usuario')";
+            $salt = bin2hex(random_bytes(16));
+            $hashedPass = password_hash($senha_usuario . $salt, PASSWORD_DEFAULT);
+
+            $query_novo_usuario = "INSERT INTO usuarios (nome, email, usuario, senha_usuario, salt) 
+                               VALUES ('$nome', '$email', '$usuario', '$hashedPass', '$salt')";
 
             $result_novo_usuario = $conn->prepare($query_novo_usuario);
             $result_novo_usuario->execute();
@@ -53,7 +56,7 @@ include_once 'conexao.php';
             if (true) {  
                 echo '<script type="text/javascript">
                         alert("Usuário criado com sucesso" ); 
-                        location= "inicial.php"; 
+                        location= "inicial"; 
                      </script>';                 
             }
         }

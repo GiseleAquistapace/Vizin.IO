@@ -34,14 +34,6 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Extraindo dados da tabela `usuarios`
---
-
-INSERT INTO `usuarios` (`id`, `nome`, `usuario`, `senha_usuario`) VALUES
-(1, 'Joao', 'Joao', '123456'),
-(2, 'teste', 'teste', '123');
-
---
 -- Indexes for dumped tables
 --
 
@@ -63,3 +55,17 @@ ALTER TABLE `usuarios`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+ALTER TABLE usuarios ADD COLUMN salt VARCHAR(32) NOT NULL;
+ALTER TABLE usuarios ADD COLUMN email VARCHAR(150) NOT NULL;
+
+--
+-- Extraindo dados da tabela `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `nome`, `usuario`, `senha_usuario` , `salt`, `email`) VALUES
+(1, 'Joao', 'Joao', '$2y$10$AOHnMEvbyHny0H1pQjAmOOm989nr.Cw79.BqKdi/nY0mjjazVOXQu', '6b9619c85220510cfa188bcce755a254', 'joao@email.com'),
+(2, 'teste', 'teste', '$2y$10$g1Qxct/OApslJPe88VCuNewsL/aWwpDfpaTIda9gwja8PkFXIEAXO', '320d5b58fd1fbfca479d6a5087f6e52f', 'teste@email.com');
+
+-- 123456
+-- 123
