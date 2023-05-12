@@ -1,4 +1,5 @@
-# vizin.io
+# vizin.io <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+
 
 Esse projeto foi criado para a cadeira Projeto Integrador do 5º semestre do tecnólogo de Análise e Desenvolvimento de Sistemas da Faculdade Senac.
 
@@ -23,6 +24,7 @@ Observação: por ser um projeto de faculdade, as tecnologias utilizadas se limi
 #### Execute os arquivos dentro da pasta `bd` na ordem:
 * `meu_banco.sql`
 * `post.sql`
+
 Atentar dados de conexão em `conexao.php`.
 
 #### Outras instruções:
