@@ -1,7 +1,7 @@
 CREATE TABLE post (
   cd_post INT(11) NOT NULL AUTO_INCREMENT,
-  latitude FLOAT(15,10) NOT NULL,
-  longitude FLOAT(15,10) NOT NULL,
+  latitude VARCHAR(30) NOT NULL,
+  longitude VARCHAR(30) NOT NULL,
   nm_local VARCHAR(200) NOT NULL,
   endereco VARCHAR(500) NOT NULL,
   assunto VARCHAR(100) NOT NULL,

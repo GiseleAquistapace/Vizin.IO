@@ -55,6 +55,10 @@ function getReverseOnSidebar(lat, lng, isMapClick) {
     document.querySelector('#latitude').value = lat;
     document.querySelector('#longitude').value = lng;
 
+    console.log('clique do mapa');
+    console.log(lat);
+    console.log(lng);
+
     var url = 'https://nominatim.openstreetmap.org/reverse?format=jsonv2&accept-language=pt&lat=' + lat + '&lon=' + lng;
     fetch(url)
         .then(function (response) {
@@ -128,6 +132,12 @@ form.onsubmit = async (e) => {
 
     e.preventDefault();
 
+    let latitude = document.querySelector('#latitude').value;
+    let longitude = document.querySelector('#longitude').value;
+    console.log('submit');
+    console.log(latitude);
+    console.log(longitude);
+
     let response = await fetch(form.getAttribute('action'), {
         method: 'POST',
         body: new FormData(form)
@@ -136,18 +146,18 @@ form.onsubmit = async (e) => {
     let result = await response;
 
     if (newPostMarker) {
-        popup = newPostMarker.setIcon(orangeIcon).getPopup();
-
-        if (popup) {
-            popup.remove();
+        if (newPostMarker.getPopup()) {
+            newPostMarker.getPopup().remove();
         }
+
+        popup = newPostMarker.setIcon(orangeIcon).bindPopup(L.popup())
+            .on('click', function (e) { fetchPositionPosts(this, latitude, longitude) });
 
         newPostMarker = L.marker();
     }
 
     closeSidebar();
     hideLoader();
-    //@TODO: Colocar os detalhes do post recém incluso na página
 };
 
 //@TODO Separar o js e o css do loader
