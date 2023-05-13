@@ -9,6 +9,7 @@ include_once 'conexao.php';
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Login</title>
 </head>
 
@@ -32,7 +33,6 @@ include_once 'conexao.php';
 
         if (($result_usuario) and ($result_usuario->rowCount() != 0)) {
             $row_usuario = $result_usuario->fetch();
-
             if (password_verify($dados['senha_usuario'] . $row_usuario['salt'], $row_usuario['senha_usuario'])) {
                 $_SESSION['id'] = $row_usuario['id'];
                 $_SESSION['nome'] = $row_usuario['nome'];

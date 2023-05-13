@@ -21,7 +21,7 @@ Observação: por ser um projeto de faculdade, as tecnologias utilizadas se limi
 * Apache 2.4.56
 * MariaDB 10.4.28
 
-#### Execute os arquivos dentro da pasta `bd` na ordem:
+#### Setup do banco de dados: execute os arquivos dentro da pasta `bd` na ordem:
 * `meu_banco.sql`
 * `post.sql`
 

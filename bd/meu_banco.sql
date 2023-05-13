@@ -63,9 +63,5 @@ ALTER TABLE usuarios ADD COLUMN email VARCHAR(150) NOT NULL;
 -- Extraindo dados da tabela `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nome`, `usuario`, `senha_usuario` , `salt`, `email`) VALUES
-(1, 'Joao', 'Joao', '$2y$10$AOHnMEvbyHny0H1pQjAmOOm989nr.Cw79.BqKdi/nY0mjjazVOXQu', '6b9619c85220510cfa188bcce755a254', 'joao@email.com'),
-(2, 'teste', 'teste', '$2y$10$g1Qxct/OApslJPe88VCuNewsL/aWwpDfpaTIda9gwja8PkFXIEAXO', '320d5b58fd1fbfca479d6a5087f6e52f', 'teste@email.com');
-
--- 123456
--- 123
+INSERT INTO `usuarios` (`nome`, `usuario`, `senha_usuario` , `salt`, `email`) VALUES
+('Usuário Teste', 'user_test', '$2y$10$gg6QxSXgpxrXT6SbFeJUReR7D2tE0KjS3yx7sSKa1kWMCZPaXb5a.', 'c8d4b16841fc6bcca4756d2bcf7944a6', 'user_test@email.com');
