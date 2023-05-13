@@ -112,6 +112,7 @@ button:hover {
   width: 100%;
   max-width: 100px;
   margin: 0 auto;
+  margin-left: 50rem;
   text-align: center;
   background-color: #F5F5F5;
 }
@@ -119,7 +120,16 @@ button:hover {
 #imgser {
   width: 20rem;
   height: 5rem; 
+  text-align: center;  
 }
 
+.contrib {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-left: 20rem;
+  text-align: center;
+  background-color: #F5F5F5;
+}
 
 
