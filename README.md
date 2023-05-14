@@ -42,3 +42,12 @@ DocumentRoot "C:/xampp/htdocs/Vizin.IO"
 
 Não se esqueça que após mexer nas configurações do servidor, você terá que reiniciar o servidor.
 
+## Funcionalidades:
+#### Visualizar locais que possuem postagem
+![Visualização do mapa com pins](prints/post.PNG)
+
+#### Visualizar postagens
+![Visualização dos posts de um local](prints/post1.PNG)
+
+#### Realizar postagem
+![Criação de postagem](prints/post2.PNG)

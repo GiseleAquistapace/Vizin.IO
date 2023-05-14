@@ -215,7 +215,7 @@ async function fetchPositionPosts(marker, latitude, longitude) {
     markerHeader.classList.add('marker-header');
 
     const markerHeaderTitle = document.createElement('h3');
-    markerHeaderTitle.textContent = 'Eventos';
+    markerHeaderTitle.textContent = 'Posts';
 
     markerHeader.appendChild(markerHeaderTitle);
     markerContent.appendChild(markerHeader);
