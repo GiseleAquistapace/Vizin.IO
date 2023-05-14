@@ -7,14 +7,14 @@ O projeto Vizin.IO é uma aplicação web que utiliza a linguagem de programaç�
 
 Observação: por ser um projeto de faculdade, as tecnologias utilizadas se limitam às cadeiras apresentadas pelo curso. A entrega do semestre se refere a uma funcionalidade do sistema, por isso, o mesmo não está completo.
 
-## Authors
+## Autores
 
 | [<img src="https://avatars.githubusercontent.com/u/7684192" width=80><br><sub>Jéssica Rodrigues</sub>](https://github.com/jessicasrodrigues)  | [<img src="https://avatars.githubusercontent.com/u/125749367?v=4" width=80><br><sub>Gisele Bittencourt</sub>](https://github.com/GiseleAquistapace)  |  [<img src="https://avatars.githubusercontent.com/u/14103735" width=80><br><sub>Felipe Craveiro</sub>](https://github.com/flpcnc) |
 |---|---|---|
 |  [<img src="https://avatars.githubusercontent.com/u/120474188" width=80><br><sub>Kauan Yamada</sub>](https://github.com/KauanYamada) | [<img src="https://avatars.githubusercontent.com/u/133287720" width=80><br><sub>Gleyco da Silva</sub>](https://github.com/mathmsd)  | [<img src="https://avatars.githubusercontent.com/u/99621069" width=80><br><sub>Samuel Gomes</sub>](https://github.com/SamuelCrepaldi)  |
 
 
-## Installation
+## Instalação
 
 #### Versões utilizadas no desenvolvimento:
 * PHP 8.0.28
