@@ -7,8 +7,9 @@
     require_once('model/PostModel.php');
 
     $routes = array(
-        '' => 'login',
+        '' => 'inicial',
         'inicial' => 'inicial',
+        'menu' => 'menu',
         'login' => 'login',
         'nova-conta' => 'novaConta',
         'post' => (new PostController(new PostModel($conn))),

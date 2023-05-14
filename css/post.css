@@ -46,11 +46,12 @@ span {
   display: flex;
   align-items: center;
   justify-content: right;
-  margin-bottom:8px;
+  margin-bottom: 8px;
   margin-right: 5px;
 }
 
-.group-new-post .material-icons, .group-new-post span {
+.group-new-post .material-icons,
+.group-new-post span {
   cursor: pointer;
 }
 
@@ -213,4 +214,20 @@ button[type="submit"]:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  order: 2;
+  margin-left: auto;
+}
+
+.logo {
+  order: 1;
+  margin-right: auto;
 }

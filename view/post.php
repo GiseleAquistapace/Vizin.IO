@@ -3,6 +3,7 @@
 
 <head>
   <title>Mapa de postagens</title>
+  <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
@@ -16,10 +17,21 @@
     <div class="spinner"></div>
   </div>
 
-  <?php //@TODO Redirecionar para o login se usuário não estiver logado  ?>
+  <header>
+    <div class="logout">
+      <a href="logout">
+        <i class="material-icons">exit_to_app</i>Sair
+      </a>
+    </div>
+
+    <div class="logo">
+      <a href="menu">
+        <img src="img/vizin.io.png" width="100px" />
+      </a>
+    </div>
+  </header>
 
   <div id="content">
-    <a href='inicial'><img src='img/vizin.io.png' width='100px' /></a>
     <p style='font-size:14px'>Clique nos marcadores em laranja para visualizar os posts já incluídos ou em qualquer
       lugar do mapa para incluir um novo post.</p>
     <div id="map"></div>
@@ -54,7 +66,7 @@
       </form>
     </div>
   </div>
-  
+
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
   <script src="js/post.js"></script>

@@ -1,5 +1,4 @@
 <?php
-session_start();
 ob_start();
 include_once 'conexao.php';
 ?>
@@ -14,7 +13,7 @@ include_once 'conexao.php';
 </head>
 
 <body>
-    <button id="voltar" onclick="location.href='index.html'"><img id="imgBack" src="img/backArrow.png"></button>
+    <button id="voltar" onclick="location.href='/'"><img id="imgBack" src="img/backArrow.png"></button>
     <h1>Vizin.IO</h1>
     <h2>Login</h2>
     <br>
@@ -36,7 +35,7 @@ include_once 'conexao.php';
             if (password_verify($dados['senha_usuario'] . $row_usuario['salt'], $row_usuario['senha_usuario'])) {
                 $_SESSION['id'] = $row_usuario['id'];
                 $_SESSION['nome'] = $row_usuario['nome'];
-                header("Location: inicial");
+                header("Location: menu");
             } else {
                 $_SESSION['msg'] = "<p style='color: #ff0000'>Erro: Senha inválida!</p>";
             }

@@ -1,7 +1,7 @@
 # vizin.io <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 
 
-Esse projeto foi criado para a cadeira Projeto Integrador do 5º semestre do tecnólogo de Análise e Desenvolvimento de Sistemas da Faculdade Senac.
+Esse projeto foi criado para a cadeira Projeto Integrador do 4º semestre do tecnólogo de Análise e Desenvolvimento de Sistemas da Faculdade Senac.
 
 O projeto Vizin.IO é uma aplicação web que utiliza a linguagem de programação PHP e o banco de dados MariaDB. O objetivo da aplicação é criar uma rede social de bairro, onde os vizinhos podem se conhecer, fomentar eventos locais e melhorar o bairro onde moram. Através do Vizin.IO, os usuários podem criar perfis, adicionar amigos, criar e participar de eventos, bem como trocar mensagens e compartilhar informações relevantes para a comunidade.
 
